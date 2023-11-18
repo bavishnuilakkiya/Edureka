@@ -1,0 +1,680 @@
+
+
+    --------------------------***********************************************------------------------------------------------
+
+    -----HTML Code--------
+
+
+
+<!--  <div class="container-fluid main">
+      <div class="row">
+        <div class="col-md-offset-1 col-md-4 text-left logo text-left">
+          <img id="logo" src="Asset/images/logo.png" />
+        </div>
+        <div class="col-md-4 col-md-offset-1 text-right mt-30 lang-item">
+          <button
+            type="button"
+            class="lang-btn"
+            list="lang"
+            data-toggle="dropdown"
+          >
+            <span class="glyphicon glyphicon-globe icon-white"></span>
+            <select class="language">
+              <option>English</option>
+              <option>Tamil</option>
+            </select>
+          </button>
+        </div>
+        <div class="col-md-1 user-item">
+          <button type="button" class="btn user">
+            <span class="glyphicon glyphicon-user icon-white"></span> Sign-in
+          </button>
+        </div>
+      </div>
+      <div class="flex">
+        <h1 class="title">Laughter. Tears. Thrills. Find it all on Netflix.</h1>
+        <p class="subtitle">
+          Endless entertainment starts at just ₹ 149. Cancel anytime.
+        </p>
+        <p class="card-cache">
+          Ready to watch? Enter your email to create or restart your membership.
+        </p>
+        <div class="subscription-container">
+          <div class="email-subscription">
+            <input type="email" class="email" placeholder="Email address" />
+          </div>
+          <div class="subscription-button">
+            <button class="start-subscription">
+              Get Started
+              <span
+                class="glyphicon glyphicon-chevron-right get-started"
+              ></span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--<div class="container-fluid watchOnTv">
+      <div class="wot-detail">
+        <h1>Enjoy on your TV</h1>
+        <p>
+          Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray
+          players and more.
+        </p>
+      </div>
+      <div class="wot-animation">
+        <img class="ani-image" src="Asset/images/tv.png" alt="TV Image" >
+        <div class="animation">
+          <video class="ani-video" autoplay loop>
+            <source src="Asset/video/video-tv-in-0819.mp4" type="video/mp4"/>
+          </video>
+        </div></img>
+      </div>
+    </div>-->
+    <!--<div class="container-fluid">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    --------------------------***********************************************------------------------------------------------
+
+    -----CSS Properties--------
+
+    
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;1,100&display=swap");
+
+
+
+.main{
+    background: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.612), rgba(39, 37, 41, 0.612)),url("Asset/Images/home.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: contain;
+    border-bottom: 8px solid rgb(54, 53, 53);
+}
+
+
+.row{
+    display:flex;
+    flex-flow: row wrap;
+    align-items: baseline;
+    
+}
+
+#logo{
+    display:inline-block;
+    height: 120px;
+}
+
+.img{
+    height: 20px;
+    width: 20px;
+    padding: 2px;
+}
+
+.icon-white {
+    color: white;
+  }
+.lang-item{
+    display:inline-block;
+   
+}
+.lang-item >button,img,select{
+    background:transparent;
+    
+}
+
+.lang-btn{
+    border: 2px solid rgba(255, 255, 255, 0.363);
+    height:30px;
+    border-radius: 5px;
+}
+
+.user{
+    height:30px;
+    background: red;
+    color:white;
+}
+
+select{
+    border: none;
+    color:white;
+    font-family: system-ui;
+}
+option{
+    color:black;
+    font-family: system-ui;
+}
+.user-item{
+    display:inline-block;
+    height:30px;
+    width:120px;
+
+}
+
+.flex{
+    margin: 100px 20px;
+    display:flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.title{
+    font-size: 5rem;
+    font-weight: 900;
+    color: white;
+    font-family: system-ui;
+}
+
+.subtitle{
+    font-size: 2.5rem;
+    font-weight: 400;
+    color: white;
+    font-family: system-ui;
+    line-height: 4rem;
+}
+
+.card-cache{
+    font-size: 2.3rem;
+    font-weight: 400;
+    color: white;
+    line-height: 4.5rem;
+    font-family: system-ui;
+}
+
+
+.email{
+    height: 50px;
+    width:300px;
+    background: transparent;
+    color:white;
+    opacity: 1;
+    border: 2px solid rgba(255, 255, 255, 0.363);
+    font-family: system-ui;
+    font-size: 1.8rem;
+}
+
+.start-subscription{
+    height: 50px;
+    width: 180px;
+    background: red;
+    color: white;
+    font-size: 20px;
+    font-weight: 100;
+
+}
+
+span.get-started{
+    color:white;
+}
+
+
+.subscription-container{
+    display: flex;
+    column-gap: 10px;
+    flex-flow: row wrap;
+    /* row-gap: 133px; */
+    height: 200px;
+    align-items: baseline;
+    align-content: space-between;
+}
+
+
+.watchOnTv{
+    margin-top:0;
+    height:600px;
+    background-color: black;
+    color: white;
+    display:flex;
+    flex-flow: row wrap;
+    border-bottom: 8px solid rgb(54, 53, 53);
+}
+
+.wot-detail{
+    width: 750px;
+    margin-left: 50px;
+    display:flex;
+    align-items: flex-start;
+    flex-flow: column wrap;
+    justify-content: center;
+}
+
+.wot-detail> h1{
+    font-family: system-ui;
+    font-size: 6rem;
+    font-weight: 800;
+}
+
+.wot-detail> p{
+    font-family: system-ui;
+    font-size: 3rem;
+}
+
+.wot-animation{
+    position:relative;  
+    margin-left: -30px;  
+    
+}
+
+.ani-image{
+    background:transparent;
+    position:absolute;
+    z-index: 2; 
+    height: 577px;
+    width:100%;
+}
+
+.animation{
+    position:absolute;
+    top: 100px;
+    z-index: 1;
+    
+}
+.ani-video{
+    position: absolute;
+    left:82px;
+    height: 300px;
+    width: 540px;
+}
+
+
+
+
+
+
+<div class="accordion" id="accordionExample">
+      <div class="accordion-container">
+        <div class="accordion-item">
+          <div class="accordion-header">
+            <h2
+              class="accordion-btn"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseOne"
+              aria-expanded="true"
+              aria-controls="collapseOne"
+            >
+              What is Netflix?
+              <!--<span class="faq faq-plus">&plus;</span>-->
+              <img class="acc-img" src="Asset/images/plus.jpg" />
+            </h2>
+          </div>
+        </div>
+        <div
+          id="collapseOne"
+          class="accordion-collapse collapse"
+          data-bs-parent="#accordionExample"
+        >
+          <div class="accordion-body">
+            <p>
+              Netflix is a streaming service that offers a wide variety of
+              award-winning TV shows, movies, anime, documentaries and more – on
+              thousands of internet-connected devices.
+            </p>
+            <p>
+              ou can watch as much as you want, whenever you want, without a
+              single ad – all for one low monthly price. There's always
+              something new to discover, and new TV shows and movies are added
+              every week!
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="accordion-container">
+        <div class="accordion-item">
+          <div class="accordion-header">
+            <h2
+              class="accordion-btn"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseTwo"
+              aria-expanded="true"
+              aria-controls="collapseTwo"
+            >
+              How much does Netflix cost?
+              <!--<span class="faq faq-plus">&plus;</span>-->
+              <img class="acc-img" src="Asset/images/plus.jpg" />
+            </h2>
+          </div>
+        </div>
+        <div
+          id="collapseTwo"
+          class="accordion-collapse collapse"
+          data-bs-parent="#accordionExample"
+        >
+          <div class="accordion-body">
+            <p>
+              Watch Netflix on your smartphone, tablet, Smart TV, laptop, or
+              streaming device, all for one fixed monthly fee. Plans range from
+              ₹ 149 to ₹ 649 a month. No extra costs, no contracts.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="accordion-container">
+        <div class="accordion-item">
+          <div class="accordion-header">
+            <h2
+              class="accordion-btn"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseThree"
+              aria-expanded="true"
+              aria-controls="collapseThree"
+            >
+              Where can I watch?
+              <!--<span class="faq faq-plus">&plus;</span>-->
+              <img class="acc-img" src="Asset/images/plus.jpg" />
+            </h2>
+          </div>
+        </div>
+        <div
+          id="collapseThree"
+          class="accordion-collapse collapse"
+          data-bs-parent="#accordionExample"
+        >
+          <div class="accordion-body">
+            <p>
+              Watch anywhere, anytime. Sign in with your Netflix account to
+              watch instantly on the web at netflix.com from your personal
+              computer or on any internet-connected device that offers the
+              Netflix app, including smart TVs, smartphones, tablets, streaming
+              media players and game consoles.
+            </p>
+            <p>
+              You can also download your favourite shows with the iOS, Android,
+              or Windows 10 app. Use downloads to watch while you're on the go
+              and without an internet connection. Take Netflix with you
+              anywhere.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="accordion-container">
+        <div class="accordion-item">
+          <div class="accordion-header">
+            <h2
+              class="accordion-btn"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseFour"
+              aria-expanded="true"
+              aria-controls="collapseFour"
+            >
+              How do I cancel?
+              <!--<span class="faq faq-plus">&plus;</span>-->
+              <img class="acc-img" src="Asset/images/plus.jpg" />
+            </h2>
+          </div>
+        </div>
+        <div
+          id="collapseFour"
+          class="accordion-collapse collapse"
+          data-bs-parent="#accordionExample"
+        >
+          <div class="accordion-body">
+            <p>
+              Netflix is flexible. There are no annoying contracts and no
+              commitments. You can easily cancel your account online in two
+              clicks. There are no cancellation fees – start or stop your
+              account anytime.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="accordion-container">
+        <div class="accordion-item">
+          <div class="accordion-header">
+            <h2
+              class="accordion-btn"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseFive"
+              aria-expanded="true"
+              aria-controls="collapseFive"
+            >
+              What can I watch on Netflix?
+              <!--<span class="faq faq-plus">&plus;</span>-->
+              <img class="acc-img" src="Asset/images/plus.jpg" />
+            </h2>
+          </div>
+        </div>
+        <div
+          id="collapseFive"
+          class="accordion-collapse collapse"
+          data-bs-parent="#accordionExample"
+        >
+          <div class="accordion-body">
+            <p>
+              Netflix has an extensive library of feature films, documentaries,
+              TV shows, anime, award-winning Netflix originals, and more. Watch
+              as much as you want, anytime you want.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="accordion-container">
+        <div class="accordion-item">
+          <div class="accordion-header">
+            <h2
+              class="accordion-btn"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseSix"
+              aria-expanded="true"
+              aria-controls="collapseSix"
+            >
+              Is Netflix good for kids?
+              <!--<span class="faq faq-plus">&plus;</span>-->
+              <img class="acc-img" src="Asset/images/plus.jpg" />
+            </h2>
+          </div>
+        </div>
+        <div
+          id="collapseSix"
+          class="accordion-collapse collapse"
+          data-bs-parent="#accordionExample"
+        >
+          <div class="accordion-body">
+            <p>
+              The Netflix Kids experience is included in your membership to give
+              parents control while kids enjoy family-friendly TV shows and
+              films in their own space.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+    body{
+  background:black;
+  color:white;
+}
+
+ul, li {
+  list-style: none;
+}
+
+.accordion-container{
+  height: 50px;
+    /* width: 1000px; */
+    margin: 20px 200px;
+    background:black;
+    
+}
+
+
+.accordion-item{
+  background-color:rgb(61, 61, 61);
+}
+  
+
+.accordion-item:hover{
+  background-color:rgb(81, 80, 80);
+}
+.accordion-header {
+  margin: 8px 20px;
+  height: 55px;
+  color:white;
+}
+
+
+img{
+  float: right;
+  height: 35px;
+  width: 30px;
+}
+
+.accordion-btn {
+    display: block;
+    text-align: Left;
+    font-weight: bold;
+    font-size: 1.2rem;
+  }
+
+  .faq-plus{
+    float:right;
+  }
+
+.accordion-body{
+  background-color:rgb(61, 61, 61);
+
+}
+
+
+
+<div id="wrap_video">
+          <div id="video_box">
+              <div id="video_overlays"><img src="Asset/images/tv.png"/></div>
+              <div>
+                  <iframe width="560" height="315" src="https://www.youtube.com/embed/gKiaLSJW5xI" frameborder="0" allowfullscreen></iframe>
+              </div>
+          </div>
+      </div>
+
+
+
+<!--<div class="embed-responsive embed-responsive-16by9">
+          <iframe
+            class="embed-responsive-item"
+            src="Asset/video/video-tv-in-0819.mp4"
+          ></iframe>
+        </div>
+      
+      <img class="ani-image" src="Asset/images/tv.png" alt="TV Image" >
+          <video class="ani-video" autoplay loop>
+            <source src="Asset/video/video-tv-in-0819.mp4" type="video/mp4" />
+          </video>
+        </img>
+
+      -->
+
+.watchOnTv-container{
+  position:relative;
+  display:flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+  column-gap:50px;
+  border-bottom: 5px solid rgb(54, 53, 53);
+  height:500px;
+}
+
+
+.wot-detail {
+  display: flex;
+    flex-flow: column wrap;
+    height: 500px;
+    justify-content: center;
+}
+
+
+.wot-animation{
+  height: 500px;
+    position: relative;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+}
+
+
+@media only screen and (max-width: 1300px) {
+  
+  .wot-detail {
+      display: flex;
+      flex-flow: column wrap;
+      height: 250px;
+      width: 375px;
+      justify-content: center;
+  }
+
+  .wot-animation{
+      position: relative;
+      display: flex;
+      flex-flow: column wrap;
+      justify-content: center;
+      height: 250px;
+      width: 375px;
+  }
+}
+
+
+
+.ani-image{
+  position: absolute;
+    left: -250px;
+    top: -250px;
+    height: 375px;
+    width: 500px;
+}
+
+@media only screen and (max-width: 700px) {
+  
+  .ani-video{
+    position: absolute;
+    height: 203px;
+    width: 500px;
+    right: 2px;
+    top: -296px;
+  }
+}
+.ani-video{
+  position: absolute;
+  height: 205px;
+  width: 500px;
+  right: -248px;
+  top: -172px;
+  z-index:-1;
+}

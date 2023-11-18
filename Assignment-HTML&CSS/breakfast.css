@@ -1,0 +1,247 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;1,100&display=swap");
+
+.container-head {
+    height: 100px;
+    background: #ce0505 0% 0% no-repeat padding-box;
+    opacity: 1;
+    display: flex;
+    justify-content: space-around;
+  }
+  .logo {
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    background-color: #ffffff;
+    text-align: center;
+    font:  33px/50px Poppins;
+    color: #eb2929;
+    margin: 20px;
+    border-radius: 50%;
+  }
+
+  .user-account{
+    margin: 15px 30px;
+    display:flex;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .user-account > button{
+    height:40px;
+    width:max-content;
+    text-align: left;
+    font: 16px/25px Poppins;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 0.8;
+    background-color: transparent;
+    border-style: none;
+    padding: 0 20px;
+  }
+
+  #signup{
+    border:1px solid #FFFFFF;
+  }
+
+  .container-main{
+    margin:0 50px;
+  }
+
+  .title{
+    text-align: left;
+    font: Bold 36px/55px Poppins;
+    color: #192F60;
+    opacity: 1;
+    margin: 10px 0; 
+  }
+
+.details-section{
+    display:flex;
+    flex-flow: row wrap;
+       
+}
+
+  .panel-vertical{
+    display:flex;
+    flex-flow: column wrap;
+    margin:10px 15px;
+    width:250px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    opacity: 1;
+    padding:15px;
+  }
+  h3{
+    text-align: left;
+    font: normal normal 600 18px/27px Poppins;
+    letter-spacing: 0px;
+    color: #192F60;
+    opacity: 1;
+  }
+
+
+  .select{
+    display:grid;
+    justify-items: stretch;
+    margin:10px;
+  }
+   h4{
+    text-align: left;
+    font: normal normal normal 14px/21px Poppins;
+    letter-spacing: 0px;
+    color: #192F60;
+    opacity: 1;
+    
+  }
+  
+
+  .cuisine {
+    display:grid;
+    justify-items: stretch;
+    margin:10px;
+  }
+
+  
+ .checkbox{
+    padding:2px;
+ }
+
+ .checkbox > input{
+    border: 2px solid #3A5075;
+    border-radius: 2px;
+    opacity: 1;
+ }
+ 
+
+ select,input, label{
+    text-align: left;
+    font: normal normal normal 14px/21px Poppins;
+    letter-spacing: 0px;
+    color: #8C96AB;
+    opacity: 1;
+ }
+
+ .cost {
+    margin:10px;
+  }
+
+.sort {
+    margin:10px;
+  }
+  
+ .panel-horizontal{
+    display:flex;
+    flex-flow: column wrap;
+    margin:10px 15px;
+    width:800px;
+  }
+
+.item{
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    opacity: 1;
+    padding-left: 20px;
+}
+
+.top-sec{
+    display: flex;
+    align-items: center;
+    margin: 10px 20px;
+    border-bottom: 0.1px solid #9d9d9c6f;
+}
+.side-sec{
+    margin:0 20px;
+}
+
+  .top-sec img{
+    height:120px;
+    width:120px;
+    border-radius: 15px;
+  }
+
+h2{
+    text-align: left;
+    font: normal normal 600 30px/46px Poppins;
+    letter-spacing: 0px;
+    color: #192F60;
+    opacity: 1;
+    margin:5px 0;
+}
+
+h4{
+    text-align: left;
+    font: normal normal medium 16px/30px Poppins;
+    letter-spacing: 0px;
+    color: #192F60;
+    opacity: 1;
+    margin:5px 0;
+}
+
+p{
+    text-align: left;
+    font: normal normal normal 16px/30px Poppins;
+    letter-spacing: 0px;
+    color: #636F88;
+    opacity: 1;
+}
+
+.bottom-nav{
+    margin: 10px 20px;
+    display:flex;
+    align-items: center;
+}
+
+.bottom-nav> div{
+    margin: 0 20px;
+}
+
+.tag-item > p {
+    text-align: left;
+    font: normal normal normal 14px/30px Poppins;
+    text-transform: uppercase;
+    letter-spacing: 0px;
+    color: #636F88;
+    opacity: 1;
+}
+
+
+.tag-detail> p{
+    text-align: left;
+    font: normal normal bold 16px/30px Poppins;
+    letter-spacing: 0px;
+    color: #192F60;
+    opacity: 1;
+}
+
+.pagination{
+  display:flex;
+  justify-content: center;
+}
+
+a{
+  height: 25px;
+  width:40px;
+  color:#8C96AB;
+  opacity: 1;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  border: 1px solid #8C96AB;
+  border-radius: 7px;
+  text-decoration:none;
+}
+
+a:nth-child(2){
+  
+  color: #FFFFFF;
+  background: #8C96AB 0% 0% no-repeat padding-box;
+  
+}
+
+.pagination > a{
+  margin: 20px 5px;
+}
+a > div{
+
+  display:grid;
+  font-family: Poppins;
+  font-size: medium;
+  justify-content: center;
+}

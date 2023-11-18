@@ -1,0 +1,35 @@
+
+
+h1 {
+    display: inline-block;
+    background-color: bisque;
+    color: blue;
+  }
+  p {
+    display: inline-block;
+    height: 100px;
+    width: 800px;
+    background-color: lightskyblue;
+    font: normal normal normal 16px/50px Verdana;
+  }
+
+  .container {
+    display: flex;
+    flex-flow: row wrap;
+  }
+
+  img {
+    height: 200px;
+    width: 300px;
+  }
+
+  .btn{
+    height:50px;
+    width:150px;
+    border-radius: 5px;
+  }
+
+  .btn-success{
+    background-color: green;
+    color:white;
+  }

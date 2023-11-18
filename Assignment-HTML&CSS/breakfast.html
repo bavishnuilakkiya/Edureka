@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Breakfast</title>
+    <link rel="stylesheet" href="breakfast.css" />
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="container-head">
+        <p class="logo">e!</p>
+        <div class="user-account">
+          <button id="login">Login</button>
+          <button id="signup">Create an account</button>
+        </div>
+      </div>
+      <div class="container-main">
+        <h1 class="title">Breakfast Places in Mumbai</h1>
+        <div class="details-section">
+          <div class="panel-vertical">
+            <h3>Filters</h3>
+            <div class="select">
+              <h4 for="loc">Select Location</h4>
+              <select name="loc">
+                <option>Select Location</option>
+                <option>Bangalore</option>
+                <option>Chennai</option>
+                <option selected>Mumbai</option>
+              </select>
+            </div>
+            <div class="cuisine">
+              <h4 for="cuisine">Cuisine</h4>
+                <div class="checkbox">
+                    <input type="checkbox"><label class="container">North Indian</label></input>
+                </div>
+                <div class="checkbox">
+                    <input type="checkbox" checked="checked"><label class="container">South Indian</label></input>
+                </div>
+                <div class="checkbox">
+                    <input type="checkbox"><label class="container">Chinese</label></input>
+                </div>
+                <div class="checkbox">
+                    <input type="checkbox"><label class="container">Italian</label></input>
+                </div>
+                <div class="checkbox">
+                    <input type="checkbox"><label class="container">Fast Food</label></input>
+                </div>
+                <div class="checkbox">
+                    <input type="checkbox" ><label class="container">Street Food</label></input>
+                </div>
+            </div>
+            <div class="cost">
+            <h4 for="cost">Cost For Two</h4>
+            <div class="radio">
+                <input type="radio" name="radio" checked="checked"><label class="container">Less than ` 500</label></input>
+            </div>
+            <div class="radio">
+                <input type="radio" name="radio"><label class="container">` 500 to ` 1000</label></input>
+            </div>
+            <div class="radio">
+                <input type="radio" name="radio"><label class="container">` 1000 to ` 1500</label></input>
+            </div>
+            <div class="radio">
+                <input type="radio" name="radio"><label class="container">` 1500 to ` 2000</label></input>
+            </div>
+            <div class="radio">
+                <input type="radio" name="radio"><label class="container">` 2000+</label></input>
+            </div>
+            </div>
+            <div class="sort">
+        <h4 for="sort">Sort</h4>
+        <div class="radio">
+            <input type="radio" checked="checked" name="radio-price"><label class="container">Price low to high</label></input>
+        </div>
+        <div class="radio">
+            <input type="radio" name="radio-price"><label class="container">Price high to low</label></input>
+        </div>
+            </div>
+          </div>
+          <div class="panel-horizontal">
+            <div class="result-container">
+                <div class="item">
+                    <div class="top-sec">
+                        <img src="Asset/Images/breakfast.png">
+                        <div class="side-sec">
+                            <h2>The Big Chill Cakery</h2>
+                            <h4>FORT</h4>
+                            <p>Shop 1, Plot D, Samruddhi Complex, Chincholi …</p>
+                        </div>    
+                    </div>
+                    <div class="bottom-nav">
+                        <div class="tag-item">
+                            <p>cuisines: </p>
+                            <p>Cost for two:</p>
+                        </div>
+                        <div class="tag-detail">
+                            <p>Bakery</p>
+                            <p>₹700</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="top-sec">
+                        <img src="Asset/Images/breakfast.png">
+                        <div class="side-sec">
+                            <h2>The Bake Shop</h2>
+                            <h4>FORT</h4>
+                            <p>Shop 1, Plot D, Samruddhi Complex, Chincholi …</p>
+                        </div>    
+                    </div>
+                    <div class="bottom-nav">
+                        <div class="tag-item">
+                            <p>cuisines: </p>
+                            <p>Cost for two:</p>
+                        </div>
+                        <div class="tag-detail">
+                            <p>Bakery</p>
+                            <p>₹700</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="pagination">
+                    <a href="#"><div>Pre</div></a>
+                    <a href="#"><div>1</div></a>
+                    <a href="#"><div>2</div></a>
+                    <a href="#"><div>3</div></a>
+                    <a href="#"><div>4</div></a>
+                    <a href="#"><div>5</div></a>
+                    <a href="#"><div>Next</div></a>
+                </div>
+
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

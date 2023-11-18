@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Zomato - Home</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+      integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="home.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="container-main">
+        <ul class="nav justify-content-end">
+          <li class="nav-item">
+            <button class="btn btn-default login">Login</button>
+          </li>
+          <li class="nav-item">
+            <button class="signup btn btn-default">Create an account</button>
+          </li>
+        </ul>
+        <div class="row text-center">
+          <div class="container-fluid justify-content-center">
+            <p class="logo">e!</p>
+            <h1 class="title">Find the best restaurants, cafés, and bars</h1>
+            <div class="search justify-content-center">
+              <input
+                class="location"
+                type="text"
+                list="location"
+                placeholder="Please type a location"
+              />
+              <datalist id="location">
+                <option>Sarjapur Road, Bengaluru</option>
+                <option>HSR Layout, Bengaluru</option>
+                <option>Kormangala, Bengaluru</option>
+                <option>Jay Nagar, Bengaluru</option>
+                <option>Marenahali, Bengaluru</option>
+              </datalist>
+              <div class="container">
+                <i class="fa fa-search"></i>
+                <input
+                  class="restaurants"
+                  list="restaurants"
+                  type="text"
+                  placeholder="Search for restaurants"
+                />
+                <datalist id="restaurants">
+                  <option>The Big Chill Cakery</option>
+                  <option>Punjabi Rasoi</option>
+                  <option>Punjabi Rasoi</option>
+                </datalist>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container-detail">
+        <h2>Quick Searches</h2>
+        <p>Discover restaurants by type of meal</p>
+        <div class="menu">
+          <a href="breakfast.html">
+            <div class="menu-list">
+              <img src="Asset/Images/breakfast.png" alt="Breakfast" />
+              <div class="menu-list-detail">
+                <h3>Breakfast</h3>
+                <p>Start your day with exclusive breakfast options</p>
+              </div>
+            </div>
+          </a>
+          <a href="breakfast.html">
+            <div class="menu-list">
+              <img src="Asset/Images/lunch.png" alt="Lunch" />
+              <div class="menu-list-detail">
+                <h3>Lunch</h3>
+                <p>Start your day with exclusive breakfast options</p>
+              </div>
+            </div>
+          </a>
+          <a href="breakfast.html">
+            <div class="menu-list">
+              <img src="Asset/Images/snacks.png" alt="Snacks" />
+
+              <div class="menu-list-detail">
+                <h3>Snacks</h3>
+                <p>Start your day with exclusive breakfast options</p>
+              </div>
+            </div>
+          </a>
+          <a href="breakfast.html">
+            <div class="menu-list">
+              <img src="Asset/Images/dinner.png" alt="Dinner" />
+              <div class="menu-list-detail">
+                <h3>Dinner</h3>
+                <p>Start your day with exclusive breakfast options</p>
+              </div>
+            </div>
+          </a>
+          <a href="breakfast.html">
+            <div class="menu-list">
+              <img src="Asset/Images/drinks.png" alt="Drinks" />
+              <div class="menu-list-detail">
+                <h3>Drinks</h3>
+                <p>Start your day with exclusive breakfast options</p>
+              </div>
+            </div>
+          </a>
+          <a href="breakfast.html">
+            <div class="menu-list">
+              <img src="Asset/Images/nightlife.png" alt="Nightlife" />
+              <div class="menu-list-detail">
+                <h3>Nightlife</h3>
+                <p>Start your day with exclusive breakfast options</p>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
